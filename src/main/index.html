@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="primer">
 <head>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="#" />
+    <link rel="shortcut icon" href="#"/>
 
     <base href="/"/>
 
@@ -14,7 +14,7 @@
     <link href="styles/bundle.css" rel="stylesheet">
 </head>
 
-<body role="application">
+<body role="application" ng-cloak>
 
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -26,10 +26,10 @@
     </div>
 </nav>
 
-<main id="main">
+<main id="main" ng-controller="AppCtrl">
     <div class="container">
         <div class="row">
-            <h1>Hello World</h1>
+            <h1>Hello {{name}}</h1>
         </div>
     </div>
 </main>
