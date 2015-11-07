@@ -2,10 +2,14 @@
 
 require('angular');
 
-module.exports = angular.module('primer', [])
+require('./project/project');
 
-    .controller('AppCtrl', ['$scope',
-        function ($scope) {
-            $scope.name = 'Jaime';
+module.exports = angular.module('primer', ['primer.project'])
+
+    .controller('AppCtrl', ['$scope', 'ProjectService',
+        function ($scope, ProjectService) {
+            ProjectService.projects().then(function (projects) {
+                $scope.projects = projects;
+            });
         }
     ]);
