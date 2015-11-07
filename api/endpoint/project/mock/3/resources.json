@@ -1,0 +1,46 @@
+[
+  {
+    "id": 9,
+    "role": "Scrum Master",
+    "manhours": 100.0,
+    "employee": {
+      "id": 9,
+      "firstName": "Janice",
+      "lastName": "Jones",
+      "email": "jjones@email.com"
+    }
+  },
+  {
+    "id": 10,
+    "role": "Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 10,
+      "firstName": "Bob",
+      "lastName": "Smith",
+      "email": "bob.smith@email.com"
+    }
+  },
+  {
+    "id": 11,
+    "role": "Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 11,
+      "firstName": "Jack",
+      "lastName": "Johnson",
+      "email": "jack.johnson@email.com"
+    }
+  },
+  {
+    "id": 12,
+    "role": "Tester",
+    "manhours": 100.0,
+    "employee": {
+      "id": 12,
+      "firstName": "Lou",
+      "lastName": "Probst",
+      "email": "lou@probst.com"
+    }
+  }
+]

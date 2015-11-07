@@ -1,0 +1,35 @@
+[
+  {
+    "id": 6,
+    "role": "Scrum Master",
+    "manhours": 100.0,
+    "employee": {
+      "id": 6,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@doe.com"
+    }
+  },
+  {
+    "id": 7,
+    "role": "Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 7,
+      "firstName": "Jane",
+      "lastName": "Appleton",
+      "email": "jappleton@email.com"
+    }
+  },
+  {
+    "id": 8,
+    "role": "Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 8,
+      "firstName": "Daniel",
+      "lastName": "Cross",
+      "email": "dcross@email.com"
+    }
+  }
+]

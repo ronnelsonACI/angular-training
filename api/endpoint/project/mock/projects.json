@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Mainframe Modernization",
+        "resources": 5.0,
+        "description": "Replace mainframe COBOL batch and online applications with modern architecture",
+        "hours": 3000.0,
+        "budget": 500000.0,
+        "locationid": 0
+    },
+    {
+        "id": 2,
+        "name": "SPA Modernization",
+        "resources": 3.0,
+        "description": "Create HTML5/JavaScript reference application",
+        "hours": 320.0,
+        "budget": 8000.0,
+        "locationid": 0
+    },
+    {
+        "id": 3,
+        "name": "Billing System Enhancements",
+        "resources": 4.0,
+        "description": "Enhance the Billing System",
+        "hours": 800.0,
+        "budget": 10000.0,
+        "locationid": 0
+    }
+]

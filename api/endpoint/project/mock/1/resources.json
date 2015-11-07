@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "role": "Lead Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 1,
+      "firstName": "Clifford",
+      "lastName": "Squidlow",
+      "email": "c.squidlow@email.com"
+    }
+  },
+  {
+    "id": 2,
+    "role": "Lead Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 2,
+      "firstName": "Sue",
+      "lastName": "Stanton",
+      "email": "sue.stanton@email.com"
+    }
+  },
+  {
+    "id": 3,
+    "role": "Solution Archictect",
+    "manhours": 100.0,
+    "employee": {
+      "id": 3,
+      "firstName": "Alice",
+      "lastName": "Barstow",
+      "email": "a.barstow.com"
+    }
+  },
+  {
+    "id": 4,
+    "role": "Developer",
+    "manhours": 100.0,
+    "employee": {
+      "id": 4,
+      "firstName": "John",
+      "lastName": "Guillard",
+      "email": "j.guillard@email.com"
+    }
+  },
+  {
+    "id": 5,
+    "role": "Tester",
+    "manhours": 100.0,
+    "employee": {
+      "id": 5,
+      "firstName": "Lou",
+      "lastName": "Probst",
+      "email": "lou@probst.com"
+    }
+  }
+]
