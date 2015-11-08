@@ -1,17 +1,12 @@
 'use strict';
 
 require('angular');
+require('angular-ui-router');
 
 require('./project/project');
 
-module.exports = angular.module('primer', ['primer.project'])
+module.exports = angular.module('primer', ['ui.router', 'primer.project'])
 
-    .directive('header', require('./directive'))
+    .config(require('./routes'))
 
-    .controller('AppCtrl', ['$scope', 'ProjectService',
-        function ($scope, ProjectService) {
-            ProjectService.projects().then(function (projects) {
-                $scope.projects = projects;
-            });
-        }
-    ]);
+    .directive('header', require('./directive'));
