@@ -1,11 +1,13 @@
 <div class="container">
     <div class="row">
+        <h1>Projects</h1>
         <table class="table">
             <thead>
             <tr>
                 <th>Name</th>
                 <th>Description</th>
                 <th>Manhours</th>
+                <th></th>
             </tr>
             </thead>
             <tbody>
@@ -13,8 +15,15 @@
                 <td>{{project.name}}</td>
                 <td>{{project.description}}</td>
                 <td>{{project.hours}}</td>
+                <td><a ui-sref="projects.details({id: project.id})" class="btn btn-sm btn-primary">View Details</a></td>
             </tr>
             </tbody>
         </table>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div ui-view="details"></div>
     </div>
 </div>

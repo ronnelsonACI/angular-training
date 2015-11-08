@@ -1,0 +1,17 @@
+<h3>Resources</h3>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Role</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="resource in resources">
+        <td>{{resource.employee | name}}</td>
+        <td>{{resource.role}}</td>
+        <td><a href="mailto:{{resource.employee.email}}">{{resource.employee.email}}</a></td>
+    </tr>
+    </tbody>
+</table>

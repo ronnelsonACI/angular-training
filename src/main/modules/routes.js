@@ -28,6 +28,27 @@ module.exports = ['$urlRouterProvider', '$stateProvider',
                         }
                     ]
                 }
+            })
+
+            .state('projects.details', {
+                url: '/:id',
+                views: {
+                    'details': {
+                        templateUrl: 'views/project-details.html',
+                        controller: ['$scope', 'resources',
+                            function ($scope, resources) {
+                                $scope.resources = resources;
+                            }
+                        ]
+                    }
+                },
+                resolve: {
+                    resources: ['$stateParams', 'ProjectService',
+                        function ($stateParams, ProjectService) {
+                            return ProjectService.resources($stateParams.id);
+                        }
+                    ]
+                }
             });
     }
 ];
